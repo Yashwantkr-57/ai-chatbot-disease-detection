@@ -1,21 +1,22 @@
-# Virtual Environment
-Chatbot/
-venv/
-env/
-
-# Dataset
-dataset/
-data/
-*.zip
+# Virtual Environments (CRITICAL)
+Chatbot/Lib/
+Chatbot/Scripts/
+Chatbot/Include/
+pyvenv.cfg
 
 # Python cache
 __pycache__/
 *.pyc
 
-# ML Models
+# Datasets
+dataset/
+data/
+*.zip
+
+# ML models
 *.h5
 *.pkl
 
-# OS files
+# OS
 .DS_Store
 Thumbs.db
