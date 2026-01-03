@@ -1,0 +1,21 @@
+# Virtual Environment
+Chatbot/
+venv/
+env/
+
+# Dataset
+dataset/
+data/
+*.zip
+
+# Python cache
+__pycache__/
+*.pyc
+
+# ML Models
+*.h5
+*.pkl
+
+# OS files
+.DS_Store
+Thumbs.db

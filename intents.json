@@ -1,0 +1,42 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+         "responses": ["Hello", "Good to see you again", "Hi there, how can I help?"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["My pleasure", "You're Welcome"],
+         "context": [""]
+        },
+        {"tag": "query",
+         "patterns": ["What is Python?"],
+         "responses": ["Python is an interpreted programminjg language"],
+         "context": [""]
+        },
+        {"tag": "information",
+         "patterns": ["What is your name","name","What is your role","role","Developer","who created you","who made you","habit"],
+         "responses": ["I am an AI chatbot","For now I can give you responses on the basis of data entered","User Y","Solving your problem","Cold and foggy"],
+         "context": [""]
+        },
+        {"tag": "fun",
+         "patterns": ["tell me a joke","A quote","joke","Motivation","motivate me "],
+         "responses": ["Go see yourself","Nothing Stays forever in this cursed world","Smart work is the key to the success"],
+         "context": [""]
+        },
+        {"tag": "weather",
+        "patterns": ["weather", "rain", "temperature", "climate"],
+         "responses": ["Let me check the weather for you."]
+        },
+        {"tag": "crop_advice",
+        "patterns": ["crop problem", "crop disease", "fertilizer", "pest"],
+        "responses": ["Please tell me the crop name and problem."]
+        }
+
+
+    ]}
