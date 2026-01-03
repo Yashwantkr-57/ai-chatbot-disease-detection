@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+#chatBox {
+    width: 400px;
+    height: 400px;
+    background: white;
+    padding: 10px;
+    overflow-y: auto;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.user {
+    background-color: #dcf8c6;
+    padding: 8px;
+    margin: 5px;
+    border-radius: 10px;
+    text-align: right;
+}
+
+.bot {
+    background-color: #ececec;
+    padding: 8px;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+.typing {
+    font-style: italic;
+    color: gray;
+}
